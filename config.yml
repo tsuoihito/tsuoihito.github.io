@@ -1,5 +1,5 @@
 baseURL: "https://nutchi.net"
-title: ぬっちのぽえむ
+title: 君の牛丼を食べたい
 languageCode: ja-jp
 theme: PaperMod
 enableRobotsTXT: true
@@ -13,20 +13,16 @@ params:
   ShowCodeCopyButtons: true
 
   homeInfoParams:
-    Title: ぬっちのぽえむ
+    Title: 君の牛丼を食べたい
     Content: 色々やったことの備忘録。ポエムはたぶん書きません。
 
 menu:
   main:
-    - identifier: profile
-      name: Profile
-      url: /posts/202304211951/
-      weight: 1
     - identifier: posts
       name: Posts
       url: /posts/
-      weight: 2
+      weight: 1
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 3
+      weight: 2
