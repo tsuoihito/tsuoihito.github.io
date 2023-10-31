@@ -32,7 +32,6 @@ set wildmode=longest,list
 set autoread
 set omnifunc=syntaxcomplete#Complete
 set hidden
-set selection=old
 set modeline
 set completeopt=menu,menuone
 set diffopt+=vertical,algorithm:histogram,indent-heuristic
@@ -75,7 +74,7 @@ augroup vimrc_filetype_indent
   autocmd FileType json setlocal ts=2 sts=2 sw=2
   autocmd FileType yaml setlocal ts=2 sts=2 sw=2
   autocmd FileType sshconfig setlocal ts=2 sts=2 sw=2
-  autocmd FileType c setlocal ts=2 sts=2 sw=2
+  autocmd FileType c setlocal ts=4 sts=4 sw=4
 augroup END
 
 augroup vimrc_formatoptions
